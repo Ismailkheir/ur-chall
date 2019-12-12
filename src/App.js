@@ -1,12 +1,17 @@
 import React from 'react';
+import RepoList from './components/RepoList'
 import './App.css';
 
-function App() {
-  return (
-    <div>
-     <h1>Init Project</h1>
-    </div>
-  );
+class App extends React.Component {
+  render(){
+    return(
+      <div>
+        <div className="navbar">United Remote Front-end Challenge</div>
+        <RepoList />
+      </div>
+    )
+
+  }
 }
 
 export default App;
