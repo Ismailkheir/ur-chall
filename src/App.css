@@ -10,7 +10,6 @@
   border:  3px solid rgb(202, 202, 202);
   display: flex;
 }
-
 img{
   width:130px;
   height:130px;
@@ -25,7 +24,6 @@ img{
 .bold{
   font-weight: bold;
 }
-
 h1{
   margin-top:2px;
 }

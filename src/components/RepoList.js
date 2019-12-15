@@ -33,7 +33,11 @@ const RepoList = () => {
   }, []);
 
   //Render chaque element de l'array 'repos'
-  return repos.map((item,index) => <Repo repo={item} key={index} />);
+  return (<>
+    {repos.map((item,index) => <Repo repo={item} key={index} />)}
+    {isFetching && <h3>Fetching more repositories ...</h3>}
+    </>
+    )
 }
 
 export default RepoList;
