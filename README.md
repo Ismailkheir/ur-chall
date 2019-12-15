@@ -1,33 +1,40 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Technologies Used:
+
 React
 
 ### Dependencies:
+
 axios (installed using `npm install axios`)
 
 ### Repository tree
-├─ public
-│  ├─ favicon.ico
-│  ├─ index.html
-│  ├─ logo192.png
-│  ├─ logo512.png
-│  ├─ manifest.json
-│  └─ robots.txt
-├─ src
-│  ├─ components
-│  │  ├─ Repo.js
-│  │  └─ RepoList.js
-│  ├─ App.css
-│  ├─ App.js
-│  ├─ App.test.js
-│  ├─ index.css
-│  ├─ index.js
-│  └─ setupTests.js
-├─ .gitignore
-├─ README.md
-├─ package-lock.json
-└─ package.json
+
+├─ public<br />
+│  ├─ favicon.ico<br />
+│  ├─ index.html<br />
+│  ├─ logo192.png<br />
+│  ├─ logo512.png<br />
+│  ├─ manifest.json<br />
+│  └─ robots.txt<br />
+├─ src<br />
+│  ├─ components<br />
+│  │  ├─ Repo.js<br />
+│  │  └─ RepoList.js<br />
+│  ├─ App.css<br />
+│  ├─ App.js<br />
+│  ├─ App.test.js<br />
+│  ├─ index.css<br />
+│  ├─ index.js<br />
+│  └─ setupTests.js<br />
+├─ .gitignore<br />
+├─ README.md<br />
+├─ package-lock.json<br />
+└─ package.json<br />
+
+### View the app online
+
+[Netlify Test Link](https://upbeat-fermi-9e72cd.netlify.com/)
 
 ### To run the application use `npm start`
 
